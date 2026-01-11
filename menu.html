@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Byte & Bite — Menu</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">
+        <img src="images/logo.png" alt="Byte & Bite logo" />
+        <span class="brand">Byte & Bite</span>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Our Menu</h1>
+
+    <!-- Smart Recipe Generator -->
+    <section class="recipe-generator card">
+      <h2>Smart Recipe Generator</h2>
+      <p>Enter ingredients you have (comma separated) and we'll suggest dishes:</p>
+      <input id="ingredientsInput" placeholder="e.g. tomato, cheese, basil" />
+      <button id="suggestBtn" class="btn">Suggest recipes</button>
+      <div id="recipeResults" class="results"></div>
+    </section>
+
+    <section id="appetizers">
+      <h2>Appetizers</h2>
+      <div class="grid">
+        <div class="menu-item">
+          <img src="images/app1.png" alt="Garlic Bread" />
+          <h3>Garlic Bread — ₹120</h3>
+          <p>Freshly toasted, herb butter.</p>
+        </div>
+
+        <div class="menu-item">
+          <img src="images/app2.png" alt="Bruschetta" />
+          <h3>Bruschetta — ₹150</h3>
+          <p>Tomato, basil, olive oil on toasted bread.</p>
+        </div>
+
+        <div class="menu-item">
+          <img src="images/app3.png" alt="Caesar Salad" />
+          <h3>Caesar Salad — ₹170</h3>
+          <p>Crisp lettuce, croutons, parmesan.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="main-courses">
+      <h2>Main Courses</h2>
+      <div class="grid">
+        <div class="menu-item">
+          <img src="images/main1.png" alt="Margherita Pizza" />
+          <h3>Margherita Pizza — ₹350</h3>
+          <p>Tomato, mozzarella, basil.</p>
+        </div>
+
+        <div class="menu-item">
+          <img src="images/main2.png" alt="Beef Burger" />
+          <h3>Beef Burger — ₹320</h3>
+          <p>Grilled patty, cheese, fries.</p>
+        </div>
+
+        <div class="menu-item">
+          <img src="images/main3.png" alt="Pasta Carbonara" />
+          <h3>Pasta Carbonara — ₹300</h3>
+          <p>Creamy sauce with pancetta.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="desserts">
+      <h2>Desserts</h2>
+      <div class="grid">
+        <div class="menu-item">
+          <img src="images/dessert1.png" alt="Chocolate Cake" />
+          <h3>Chocolate Cake — ₹180</h3>
+          <p>Decadent chocolate layers.</p>
+        </div>
+
+        <div class="menu-item">
+          <img src="images/dessert2.png" alt="Ice Cream" />
+          <h3>Ice Cream — ₹120</h3>
+          <p>Vanilla / Chocolate / Strawberry.</p>
+        </div>
+
+        <div class="menu-item">
+          <img src="images/dessert3.png" alt="Cheesecake" />
+          <h3>Cheesecake — ₹200</h3>
+          <p>Classic baked cheesecake.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Byte & Bite</strong> — 123 Flavor Lane, Food City
+      </div>
+      <div>Phone: +91 98765 43210</div>
+    </div>
+  </footer>
+
+  <script src="js/recipes.js"></script>
+</body>
+</html>
